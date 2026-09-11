@@ -1,0 +1,21 @@
+{
+  "query_caption": "This song contains digital drums with a deep low kick sound, a sharp hi hat and a loud bellsound with its own rhythm. A synthesizer is playing a lead sound in the mid range before jumping up an octave",
+  "query_ytid": "1lgqqW5TsJk",
+  "top3_audio": [
+    {
+      "ytid": "1pR0SgbqP3M",
+      "score": 0.27848705649375916,
+      "caption": "A male vocalist sings this lively pop. The tempo is fast and peppy with animated trumpets, groovy saxophone, slick drumming, funky bass line, keyboard harmony, synthesiser arrangements and electronic "
+    },
+    {
+      "ytid": "2GWkKVHxGRM",
+      "score": 0.23541274666786194,
+      "caption": "This music is a live instrumental.The music is medium tempo with a dominant piano accompaniment, keyboard harmony, bright drumming, funky bass line, congas rhythm and tambourine beats. The music is a "
+    },
+    {
+      "ytid": "2BGzxAuetOA",
+      "score": 0.23408564925193787,
+      "caption": "A male vocalist sings this song. The tempo is slow, with intense drumming; keyboard harmony, groovy bass lines and electric guitar harmony in the background. The vocalist is singing a dissonant tune a"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "model": {
+    "task1_bert": {
+      "macro_f1": 0.7115821287512003,
+      "micro_f1": 0.7743097238895558,
+      "auc_pr": 0.7816357394252859
+    },
+    "task2_gnn": {
+      "macro_f1": 0.29926599122375364
+    },
+    "task2_cnn": {
+      "macro_f1": 0.30232580184960933
+    },
+    "task3_ablations": {
+      "cross_attention": {
+        "macro_f1": 0.2374906439247089
+      },
+      "concat": {
+        "macro_f1": 0.23264960642458724
+      },
+      "bert_only": {
+        "macro_f1": 0.250397250412117
+      },
+      "gnn_only": {
+        "macro_f1": 0.10251372801598574
+      }
+    },
+    "task4_retrieval": {
+      "caption_to_audio": {
+        "R@1": 0.0625,
+        "R@5": 0.34375,
+        "R@10": 0.53125
+      },
+      "audio_to_caption": {
+        "R@1": 0.0625,
+        "R@5": 0.34375,
+        "R@10": 0.5
+      },
+      "pool_size": 32
+    }
+  },
+  "baselines": {
+    "majority_macro_f1": 0.0,
+    "majority_auc_pr": 0.05394681595521344,
+    "random_macro_f1": 0.09444070067086913,
+    "random_auc_pr": 0.056635249908753196
+  },
+  "notes": "Real-data run: FMA-small (2000 tracks, official 8 genres) + MusicCaps (800 audio graphs) + DEAM (1802 audio; emotion eval n=271). use_synthetic=false, epochs=25.",
+  "comparison_table": {
+    "Random tags": {
+      "Macro-F1": 0.09444070067086913,
+      "AUC-PR": 0.056635249908753196,
+      "MAE (emotion)": null,
+      "R@5 (retrieval)": null
+    },
+    "CNN mel-spec": {
+      "Macro-F1": 0.30232580184960933,
+      "AUC-PR": null,
+      "MAE (emotion)": null,
+      "R@5 (retrieval)": null
+    },
+    "Task 1: BERT-only": {
+      "Macro-F1": 0.7115821287512003,
+      "AUC-PR": 0.7816357394252859,
+      "MAE (emotion)": null,
+      "R@5 (retrieval)": null
+    },
+    "Task 2: GNN-only": {
+      "Macro-F1": 0.29926599122375364,
+      "AUC-PR": null,
+      "MAE (emotion)": null,
+      "R@5 (retrieval)": null
+    },
+    "Task 3: GNN\u2013BERT": {
+      "Macro-F1": 0.2374906439247089,
+      "AUC-PR": null,
+      "MAE (emotion)": 0.9144493937492371,
+      "R@5 (retrieval)": null
+    },
+    "Task 4: Contrastive": {
+      "Macro-F1": null,
+      "AUC-PR": null,
+      "MAE (emotion)": null,
+      "R@5 (retrieval)": 0.34375
+    }
+  },
+  "zero_shot": {
+    "zero_shot_caption_to_tag": {
+      "macro_f1": 0.10043825385765288,
+      "micro_f1": 0.10237104024327895,
+      "mean_auc_pr": 0.0883302371546236
+    },
+    "task3_supervised": {
+      "macro_f1": 0.23612409990664826,
+      "micro_f1": 0.21799690470926375,
+      "mean_auc_pr": 0.32051213613412066
+    },
+    "n_eval": 2858
+  },
+  "emotion": {
+    "valence": {
+      "mae": 0.9144493937492371,
+      "r2": -0.21539902687072754
+    },
+    "arousal": {
+      "mae": 1.14768385887146,
+      "r2": -0.3929978609085083
+    },
+    "n": 271
+  },
+  "graph_coherence": {
+    "mean_S_graph": 1.0,
+    "n_graphs": 20,
+    "tau": 0.85
+  }
+}

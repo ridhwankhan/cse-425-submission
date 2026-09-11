@@ -1,0 +1,10 @@
+{
+  "fma_tracks_cached": 800,
+  "fma_graphs": 400,
+  "musiccaps_captions": 5521,
+  "musiccaps_audio_downloaded": 182,
+  "musiccaps_graphs": 182,
+  "example_graphs": 20,
+  "use_synthetic": false,
+  "note": "Real FMA-small audio (HF/ID3) + MusicCaps HF captions; MusicCaps audio via yt-dlp/ffmpeg. Run scripts/download_fma_hf.py and scripts/download_musiccaps.py to refresh."
+}

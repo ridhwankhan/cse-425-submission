@@ -1,0 +1,71 @@
+seed: 42
+device: auto  # auto | cpu | cuda
+
+paths:
+  root: .
+  raw: data/raw
+  processed: data/processed
+  splits: data/splits
+  results: results
+  checkpoints: results/checkpoints
+  plots: results/plots
+  examples: data/processed/examples
+
+data:
+  fma_subset: small  # small | medium
+  fma_metadata_url: https://os.unil.cloud.switch.ch/fma/fma_metadata.zip
+  fma_small_url: https://os.unil.cloud.switch.ch/fma/fma_small.zip
+  fma_medium_url: https://os.unil.cloud.switch.ch/fma/fma_medium.zip
+  musiccaps_hf: google/MusicCaps
+  sample_rate: 22050
+  n_mels: 128
+  n_chroma: 12
+  max_text_len: 128
+  top_k_aspects: 50
+  num_genres_small: 8
+
+debug:
+  n_tracks: 0  # 0 = use all available real samples with cached graphs
+  use_synthetic: false
+  synthetic_dir: data/raw/synthetic
+  # Soft caps for graph build / paired tasks (0 = no soft cap)
+  max_fma_graphs: 2000
+  max_musiccaps_audio: 1200
+
+audio:
+  segment_seconds: 5.0
+  hop_seconds: 2.5
+  n_mfcc: 13
+
+graph:
+  similarity_tau: 0.85
+  use_temporal_edges: true
+  use_similarity_edges: true
+  chord_enabled: true
+
+model:
+  bert_name: distilbert-base-uncased
+  gnn_hidden: 128
+  gnn_layers: 3
+  gnn_type: sage  # sage | gat
+  dropout: 0.2
+  fusion_dim: 256
+  contrastive_dim: 128
+  temperature: 0.07
+  freeze_bert_epochs: 4
+  unfreeze_bert_layers: 3
+
+train:
+  batch_size: 4  # RTX 3050 4GB-friendly; raise if you have more VRAM
+  epochs: 25
+  lr: 2.0e-4
+  bert_lr: 2.0e-5
+  weight_decay: 1.0e-4
+  num_workers: 0
+  alpha_valence: 0.5
+  beta_arousal: 0.5
+  grad_clip: 1.0
+  amp: false
+
+eval:
+  threshold: 0.2

@@ -1,0 +1,299 @@
+{
+  "subset": "medium",
+  "genres": [
+    "Electronic",
+    "Experimental",
+    "Folk",
+    "Hip-Hop",
+    "Instrumental",
+    "International",
+    "Pop",
+    "Rock"
+  ],
+  "train": [
+    {
+      "track_id": 100000,
+      "genre_id": 0,
+      "genre": "Electronic",
+      "text": "untitled track by artist 0 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100000.wav"
+    },
+    {
+      "track_id": 100001,
+      "genre_id": 1,
+      "genre": "Experimental",
+      "text": "untitled track by artist 1 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100001.wav"
+    },
+    {
+      "track_id": 100002,
+      "genre_id": 2,
+      "genre": "Folk",
+      "text": "untitled track by artist 2 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100002.wav"
+    },
+    {
+      "track_id": 100003,
+      "genre_id": 3,
+      "genre": "Hip-Hop",
+      "text": "untitled track by artist 3 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100003.wav"
+    },
+    {
+      "track_id": 100004,
+      "genre_id": 4,
+      "genre": "Instrumental",
+      "text": "untitled track by artist 4 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100004.wav"
+    },
+    {
+      "track_id": 100005,
+      "genre_id": 5,
+      "genre": "International",
+      "text": "untitled track by artist 5 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100005.wav"
+    },
+    {
+      "track_id": 100006,
+      "genre_id": 6,
+      "genre": "Pop",
+      "text": "untitled track by artist 6 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100006.wav"
+    },
+    {
+      "track_id": 100007,
+      "genre_id": 7,
+      "genre": "Rock",
+      "text": "untitled track by artist 0 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100007.wav"
+    },
+    {
+      "track_id": 100008,
+      "genre_id": 0,
+      "genre": "Electronic",
+      "text": "untitled track by artist 1 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100008.wav"
+    },
+    {
+      "track_id": 100009,
+      "genre_id": 1,
+      "genre": "Experimental",
+      "text": "untitled track by artist 2 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100009.wav"
+    },
+    {
+      "track_id": 100010,
+      "genre_id": 2,
+      "genre": "Folk",
+      "text": "untitled track by artist 3 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100010.wav"
+    },
+    {
+      "track_id": 100011,
+      "genre_id": 3,
+      "genre": "Hip-Hop",
+      "text": "untitled track by artist 4 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100011.wav"
+    },
+    {
+      "track_id": 100012,
+      "genre_id": 4,
+      "genre": "Instrumental",
+      "text": "untitled track by artist 5 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100012.wav"
+    },
+    {
+      "track_id": 100013,
+      "genre_id": 5,
+      "genre": "International",
+      "text": "untitled track by artist 6 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100013.wav"
+    },
+    {
+      "track_id": 100014,
+      "genre_id": 6,
+      "genre": "Pop",
+      "text": "untitled track by artist 0 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100014.wav"
+    },
+    {
+      "track_id": 100015,
+      "genre_id": 7,
+      "genre": "Rock",
+      "text": "untitled track by artist 1 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100015.wav"
+    },
+    {
+      "track_id": 100016,
+      "genre_id": 0,
+      "genre": "Electronic",
+      "text": "untitled track by artist 2 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100016.wav"
+    },
+    {
+      "track_id": 100017,
+      "genre_id": 1,
+      "genre": "Experimental",
+      "text": "untitled track by artist 3 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100017.wav"
+    },
+    {
+      "track_id": 100018,
+      "genre_id": 2,
+      "genre": "Folk",
+      "text": "untitled track by artist 4 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100018.wav"
+    },
+    {
+      "track_id": 100019,
+      "genre_id": 3,
+      "genre": "Hip-Hop",
+      "text": "untitled track by artist 5 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100019.wav"
+    },
+    {
+      "track_id": 100020,
+      "genre_id": 4,
+      "genre": "Instrumental",
+      "text": "untitled track by artist 6 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100020.wav"
+    },
+    {
+      "track_id": 100021,
+      "genre_id": 5,
+      "genre": "International",
+      "text": "untitled track by artist 0 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100021.wav"
+    },
+    {
+      "track_id": 100022,
+      "genre_id": 6,
+      "genre": "Pop",
+      "text": "untitled track by artist 1 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100022.wav"
+    },
+    {
+      "track_id": 100023,
+      "genre_id": 7,
+      "genre": "Rock",
+      "text": "untitled track by artist 2 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100023.wav"
+    },
+    {
+      "track_id": 100024,
+      "genre_id": 0,
+      "genre": "Electronic",
+      "text": "untitled track by artist 3 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100024.wav"
+    },
+    {
+      "track_id": 100025,
+      "genre_id": 1,
+      "genre": "Experimental",
+      "text": "untitled track by artist 4 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100025.wav"
+    },
+    {
+      "track_id": 100026,
+      "genre_id": 2,
+      "genre": "Folk",
+      "text": "untitled track by artist 5 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100026.wav"
+    },
+    {
+      "track_id": 100027,
+      "genre_id": 3,
+      "genre": "Hip-Hop",
+      "text": "untitled track by artist 6 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100027.wav"
+    }
+  ],
+  "val": [
+    {
+      "track_id": 100028,
+      "genre_id": 4,
+      "genre": "Instrumental",
+      "text": "untitled track by artist 0 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100028.wav"
+    },
+    {
+      "track_id": 100029,
+      "genre_id": 5,
+      "genre": "International",
+      "text": "untitled track by artist 1 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100029.wav"
+    },
+    {
+      "track_id": 100030,
+      "genre_id": 6,
+      "genre": "Pop",
+      "text": "untitled track by artist 2 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100030.wav"
+    },
+    {
+      "track_id": 100031,
+      "genre_id": 7,
+      "genre": "Rock",
+      "text": "untitled track by artist 3 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100031.wav"
+    },
+    {
+      "track_id": 100032,
+      "genre_id": 0,
+      "genre": "Electronic",
+      "text": "untitled track by artist 4 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100032.wav"
+    },
+    {
+      "track_id": 100033,
+      "genre_id": 1,
+      "genre": "Experimental",
+      "text": "untitled track by artist 5 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100033.wav"
+    }
+  ],
+  "test": [
+    {
+      "track_id": 100034,
+      "genre_id": 2,
+      "genre": "Folk",
+      "text": "untitled track by artist 6 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100034.wav"
+    },
+    {
+      "track_id": 100035,
+      "genre_id": 3,
+      "genre": "Hip-Hop",
+      "text": "untitled track by artist 0 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100035.wav"
+    },
+    {
+      "track_id": 100036,
+      "genre_id": 4,
+      "genre": "Instrumental",
+      "text": "untitled track by artist 1 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100036.wav"
+    },
+    {
+      "track_id": 100037,
+      "genre_id": 5,
+      "genre": "International",
+      "text": "untitled track by artist 2 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100037.wav"
+    },
+    {
+      "track_id": 100038,
+      "genre_id": 6,
+      "genre": "Pop",
+      "text": "untitled track by artist 3 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100038.wav"
+    },
+    {
+      "track_id": 100039,
+      "genre_id": 7,
+      "genre": "Rock",
+      "text": "untitled track by artist 4 album demo tags chill beat",
+      "audio_path": "D:\\BRAC university\\CSE\\CSE425\\projects\\data\\raw\\synthetic\\fma_small\\100039.wav"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "query_caption": "This song is an instrumental. The tempo is medium with an upbeat electric guitar harmony. The music is minimal with no other instrument as accompaniment. It is Loud, sharp, intense, youthful and rhyth",
+  "query_ytid": "1tNkAc29aPE",
+  "top3_audio": [
+    {
+      "ytid": "2Ic1zm9mBjk",
+      "score": 0.3072689473628998,
+      "caption": "The song is an instrumental. The song is medium tempo with a sitar playing solo, tabla playing percussively and other Indian percussion instruments. The song is emotional and poignant. The audio quali"
+    },
+    {
+      "ytid": "1tNkAc29aPE",
+      "score": 0.28387361764907837,
+      "caption": "This song is an instrumental. The tempo is medium with an upbeat electric guitar harmony. The music is minimal with no other instrument as accompaniment. It is Loud, sharp, intense, youthful and rhyth"
+    },
+    {
+      "ytid": "1yWGmdevTuM",
+      "score": 0.21415777504444122,
+      "caption": "This tribal music is played on a didgeridoo. It is played by vibrating the lips over the instrument using breathing techniques. The song has a continuous droning sound and inter spread with low pitch "
+    }
+  ]
+}

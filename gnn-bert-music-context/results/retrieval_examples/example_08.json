@@ -1,0 +1,21 @@
+{
+  "query_caption": "The clip features a choir singing a hymnal type of song. This was recorded live. There's a piano accompanying the choir. They are humming in a gentle and angelic way.",
+  "query_ytid": "1uHF1-8TcEk",
+  "top3_audio": [
+    {
+      "ytid": "1tNkAc29aPE",
+      "score": 0.37743884325027466,
+      "caption": "This song is an instrumental. The tempo is medium with an upbeat electric guitar harmony. The music is minimal with no other instrument as accompaniment. It is Loud, sharp, intense, youthful and rhyth"
+    },
+    {
+      "ytid": "2G4lyzAZ1vk",
+      "score": 0.30694034695625305,
+      "caption": "A female voice is singing soulfully, sounding a little airy and sensual. Someone is playing neo-soul chords on an e-guitar. This song may be playing at home singing along to a karaoke song. This is an"
+    },
+    {
+      "ytid": "2GepmcbNlJY",
+      "score": 0.298042893409729,
+      "caption": "The recording is of poor quality. A male voice is singing soulfully along to a backing instrumental sounding like coming out of some speakers. There is a piano playing and you can hear electric drums."
+    }
+  ]
+}

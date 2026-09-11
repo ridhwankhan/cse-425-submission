@@ -1,0 +1,155 @@
+[
+  {
+    "ytid": "-0SdAVK79lg",
+    "text": "This song features an electric guitar as the main instrument. The guitar plays a descending run in the beginning then plays an arpeggiated chord followed by a double stop hammer on to a higher note an",
+    "pred_tags": [
+      {
+        "tag": "instrumental",
+        "score": 0.9998538494110107
+      },
+      {
+        "tag": "no voices",
+        "score": 0.9987215399742126
+      },
+      {
+        "tag": "piano",
+        "score": 0.9909656047821045
+      },
+      {
+        "tag": "percussion",
+        "score": 0.9863747358322144
+      },
+      {
+        "tag": "electric guitar",
+        "score": 0.6003836393356323
+      }
+    ],
+    "true_tags": [
+      "instrumental",
+      "slow tempo",
+      "bass"
+    ]
+  },
+  {
+    "ytid": "-1LrH01Ei1w",
+    "text": "This song features a rubber instrument being played. The strumming is fast. The melody is played on one fretted string and other open strings. The melody is played on the lower octave and is later rep",
+    "pred_tags": [
+      {
+        "tag": "fast tempo",
+        "score": 0.9862955212593079
+      },
+      {
+        "tag": "no voices",
+        "score": 0.8279679417610168
+      },
+      {
+        "tag": "instrumental",
+        "score": 0.662640392780304
+      },
+      {
+        "tag": "amateur recording",
+        "score": 0.001626486424356699
+      },
+      {
+        "tag": "loud",
+        "score": 0.0005697025917470455
+      }
+    ],
+    "true_tags": [
+      "instrumental",
+      "fast tempo"
+    ]
+  },
+  {
+    "ytid": "-4NLarMj4xU",
+    "text": "The Pop song features a soft female vocal singing over sustained pulsating synth lead, mellow piano melody, sustained synth brass, punchy kick, claps. tinny wide hi hats and high pitched female vocal ",
+    "pred_tags": [
+      {
+        "tag": "pop",
+        "score": 0.9998903274536133
+      },
+      {
+        "tag": "emotional",
+        "score": 0.9995707869529724
+      },
+      {
+        "tag": "punchy kick",
+        "score": 0.9862301349639893
+      },
+      {
+        "tag": "passionate",
+        "score": 0.9466230273246765
+      },
+      {
+        "tag": "shimmering hi hats",
+        "score": 0.47891417145729065
+      }
+    ],
+    "true_tags": [
+      "emotional",
+      "passionate",
+      "punchy kick",
+      "pop"
+    ]
+  },
+  {
+    "ytid": "-5f6hjZf9Yw",
+    "text": "This folk song features a male voice singing the main melody in an emotional mood. This is accompanied by an accordion playing fills in the background. A violin plays a droning melody. There is no per",
+    "pred_tags": [
+      {
+        "tag": "male voice",
+        "score": 0.9997411370277405
+      },
+      {
+        "tag": "slow tempo",
+        "score": 0.061380594968795776
+      },
+      {
+        "tag": "moderate tempo",
+        "score": 0.026683788746595383
+      },
+      {
+        "tag": "percussion",
+        "score": 0.02646706812083721
+      },
+      {
+        "tag": "no voices",
+        "score": 0.007190406788140535
+      }
+    ],
+    "true_tags": [
+      "slow tempo",
+      "male voice"
+    ]
+  },
+  {
+    "ytid": "-5xOcMJpTUk",
+    "text": "A male guitarist plays the guitar and speaks about technique in this online video tutorial. The male voice is strong and commanding, along with guitar string twang sounds, clearly demonstrating the te",
+    "pred_tags": [
+      {
+        "tag": "poor audio quality",
+        "score": 0.1489553153514862
+      },
+      {
+        "tag": "energetic",
+        "score": 0.05720948800444603
+      },
+      {
+        "tag": "spirited",
+        "score": 0.026221033185720444
+      },
+      {
+        "tag": "passionate",
+        "score": 0.01196332462131977
+      },
+      {
+        "tag": "medium tempo",
+        "score": 0.008404023945331573
+      }
+    ],
+    "true_tags": [
+      "passionate",
+      "energetic"
+    ]
+  }
+]
